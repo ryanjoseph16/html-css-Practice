@@ -1,0 +1,125 @@
+.boxes {
+    width: 300px;
+    height: 300px;
+    background-color:red;
+    display: inline-block;
+}
+.square {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color:green;
+    border-radius: 50%;
+}
+.feedback {
+    height:90px ;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.installation {
+    margin-top: 5px;
+    background-color: black;
+    color: #fff;
+    width: 350px;
+    height:100px;
+    padding: 12px;
+    display: inline-block;
+}
+.installation .title {
+    width: 300px;
+    font-style:initial;
+    font-size: 25px;
+    margin: 2px;
+}
+.installation .subTitle {
+    color: rgb(153, 146, 146);
+    margin: 12px 2px 12px 2px ;
+   
+}
+.tweet {
+    width: 260px;
+    height: 30px;
+    background-color: white;  
+    color:rgb(63, 61, 61);
+    padding: 6px;
+    display: flex ;
+    align-items: center;
+    border-radius: 5px;
+    margin-top:5px;
+    box-shadow:0px 0px 4px 1.4px #888888;
+    
+}
+.text{
+   
+    display: inline-block;
+    width: 150px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.tweet .profile{
+    
+    width: 30px;
+    border-radius: 50%;
+}
+.tweet button {
+    background-color: rgb(54, 104, 240)  ;
+    border: none;
+    border-radius: 12px;
+    color:#fff ;
+    height: 22px;
+    width: 40px;
+    font-size: 10px;
+    font-family:'Arial Narrow Bold';
+}
+.addFriend {
+    margin-top: 5px;
+    background-color: #fff;
+    width: 180px;
+    height: 230px;
+    display:flex;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.addFriend .innerBox {
+    width: 150px;
+    height: 210px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px .8px #888888;
+
+
+}
+.addFriend .innerBox .name{
+    margin: 0;
+    font-size: 12px;
+    margin-left: 3px;
+}
+.addFriend .innerBox .friendStatus {
+    color: grey;
+    margin: 0;
+    font-size: 10px;
+    margin-left: 3px;
+
+}
+.addFriend .innerBox .add {
+    width: 60px;
+    height: 25px;
+    color: #fff;
+    background-color: rgb(27, 76, 211);
+    font-size: 8px;
+    border:none;
+    margin-left: 3px;
+    border-radius: 3px;
+}
+.addFriend .innerBox .dp {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px 3px 0 0;
+    
+}
